@@ -13,8 +13,8 @@ export default function MessageForm({setMessageReadStatus}) {
                 const img = new Image();
                 img.onload = () => {
                     const canvas = document.createElement('canvas');
-                    const maxWidth = 64;
-                    const maxHeight = 80;
+                    const maxWidth = 128;
+                    const maxHeight = 135;
                     canvas.width = maxWidth;
                     canvas.height = maxHeight;
                     const ctx = canvas.getContext('2d');
