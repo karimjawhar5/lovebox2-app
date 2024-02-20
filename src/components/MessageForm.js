@@ -69,7 +69,7 @@ export default function MessageForm({setMessageReadStatus}) {
         };
 
         try {
-            const response = await fetch('http://192.168.86.83:8080/upload', {
+            const response = await fetch('https://lovebox2-server-8d8e33f8d8e3.herokuapp.com/upload', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
